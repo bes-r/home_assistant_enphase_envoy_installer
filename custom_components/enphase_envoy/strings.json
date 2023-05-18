@@ -3,7 +3,7 @@
     "flow_title": "{serial} ({host})",
     "step": {
       "user": {
-        "description": "Enter the hostname/ip and serial of your Envoy. Use your Enlighten Installer account credentials.",
+        "description": "Enter the hostname/ip and serial of your Envoy. Use your Enlighten Installer or Self-Installer account credentials.",
         "data": {
           "host": "[%key:common::config_flow::data::host%]",
           "username": "[%key:common::config_flow::data::username%]",
